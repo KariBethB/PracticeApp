@@ -29,5 +29,7 @@ namespace PracticeApp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<PracticeApp.Models.Contact> Contacts { get; set; }
     }
 }
